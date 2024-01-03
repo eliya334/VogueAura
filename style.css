@@ -1,0 +1,114 @@
+body{
+    background-color: #1f1f21;
+}
+
+#upImage{
+    position: absolute;
+    height: 125px;
+    right: 45.5%;
+    top: 0%;
+}
+
+#homeB{
+    position: absolute;
+    left: 10%;
+    top: 3%;
+    color:whitesmoke;
+    font-family: 'Montserrat' ;
+    font-size: 70%;
+}
+#homeB:hover {
+    text-decoration: underline;
+}
+
+#buyB{
+position: absolute;
+left: 14%;
+top: 3%;
+color:whitesmoke;
+font-family: 'Montserrat' ;
+font-size: 70%;
+
+}
+#buyB:hover {
+    text-decoration: underline;
+}
+
+#desc{
+    position: absolute;
+    font-family: 'Montserrat';
+    color:white;
+    font-size: smaller;
+    top: 29%;
+    left: 9%;
+
+}
+
+#title{
+    position: absolute;
+    font-family: 'Bebas Neue' ;
+    color:white;
+    font-size: 280%;
+    left: 9%;
+    top: 18%;
+
+
+}
+
+#btn{
+    position: absolute;
+    font-family: 'Montserrat';
+    background-color: #FFB402;
+    width: 8%;
+    height: 4.8%;
+    top: 41%;
+    left: 9.1%;
+    border: none;
+
+
+
+}
+
+#title2{
+    position: absolute;
+    font-family: 'Bebas Neue' ;
+    color:white;
+    font-size: 180%;
+    top: 72%;
+    left: 54%;
+}
+#desc2{
+    position: absolute;
+    font-family: 'Montserrat';
+    color:white;
+    font-size:64% ;
+    top: 80%;
+    left: 54%;
+}
+
+#front{
+height: 310px;
+position: absolute;
+left:60%;
+top: 8%;
+}
+
+#back{
+    height: 310px;
+    position: absolute;
+    top: 54%;
+    left:10%;
+}
+
+#shop{
+    position: absolute;
+    left: 90%;
+}
+#person{
+    position: absolute;
+    left: 87.6%;
+}
+#ser{
+    position: absolute;
+    left: 85%;
+}

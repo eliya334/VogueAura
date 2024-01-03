@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1f1f21;
+    color: #fff; 
+}
+
+.login-container {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    right:2%;
+}
+
+#login-form {
+    width: 300px;
+    margin: auto;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px;
+    border: none;
+    background: rgba(255, 255, 255, 0.2); 
+    color: white;
+    font-size: 16px;
+}
+
+input-group input[type="submit"] {
+    background: #333; /* Dark gray submit button */
+    cursor: pointer;
+    transition: background 0.3s ease;
+    padding: 10px 20px; /* Reduced padding */
+    font-size: 14px; /* Smaller font size if you want */
+    display: inline-block; /* To prevent the button from stretching to full width */
+}
+
+.input-group input[type="submit"]:hover {
+    background: #555; 
+}
+
+
+.input-group input:focus {
+    outline: none;
+}
+
+#upImage{
+    position: absolute;
+    height: 125px;
+    right: 45.5%;
+    top: 0%;
+}
+
+#homeB{
+    position: absolute;
+    left: 10%;
+    top: 3%;
+    color:whitesmoke;
+    font-family: 'Montserrat' ;
+    font-size: 70%;
+}
+#homeB:hover {
+    text-decoration: underline;
+}
